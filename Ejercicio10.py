@@ -6,4 +6,4 @@
 payasos = int(input("Cuantos payasos hay en el último pedido: \n"))
 muñecas = int(input("Cuantas muñecas hay en el último pedido: \n"))
 pesototal = payasos * 112 + muñecas * 75
-print("El peso total es:", pesototal)
+print("El peso total es:", pesototal, "gramos")
