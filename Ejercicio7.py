@@ -2,7 +2,7 @@
 # y lo almacene en una variable, y muestre por pantalla la frase  
 # Tu índice de masa corporal es <imc> donde <imc> es el índice de masa corporal calculado redondeado con dos decimales.
 
-peso = float(input("Introduce tu peso en kg: "))
-estatura = float(input("Introduce tu peso en metros: "))
+peso = float(input("Introduce tu peso en kg: \n"))
+estatura = float(input("Introduce tu peso en metros: \n"))
 imc = peso / (estatura * estatura)
 print("El índice de masa corporal es:", round(imc, 2))
