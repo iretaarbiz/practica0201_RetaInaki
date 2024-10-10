@@ -2,9 +2,11 @@
 # número de años, y muestre por pantalla el capital obtenido en la inversión.
 
 inv = int(input("Dinero que vas a invertir: \n"))
-interes = int(input("Cual es el interes anual: \n"))
+interes = float(input("Cual es el interes anual: \n"))
 años = int(input("Años que vas a dejar: \n"))
 beneficio = inv
-while años > 0:
-    beneficio = beneficio * interes
-print("El capital es de: ", beneficio)
+avanzar = años
+while avanzar > 0:
+    beneficio = beneficio * (interes + 1)
+    avanzar = avanzar - 1
+print("El capital obtenido en la inversión es de: ", beneficio - inv)
